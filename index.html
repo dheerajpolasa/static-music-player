@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Spotify Clone </title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-main">
+          <ul>
+            <li> <i class="fas fa-music"></i> Ninja Music</li>
+            <li class="favorite"> Favorites </li>
+          </ul>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li> <div class="profile-icon"> <img src="download.jpg"></div> </li>
+            <li> <div class="notification"> <i class="fas fa-bell"></i> </div> </li>
+            <li> <div class="search-bar"> <input type="text" placeholder="search"> <i class="fas fa-search"> </i> </div> </li>
+          </ul>
+        </div>
+        <div class="dropdown-menu">
+          <button class="dropdown-button"><i class="fas fa-bars"></i></button>
+          <div class="dropdown">
+            <a id="favor" href="#"> Favorites </a>
+            <a href="#"> Search </a>
+            <a href="#"> Notifications </a>
+            <a href="#"> Profile </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+          <div class="music-main-container">
+            <div class="new-releases">
+              <div class="new-releases-container">
+                <img id="release-first-image" src="newRelease1.jpg">
+                <img id="release-second-image" src="newRelease2.jpg">
+                <img id="release-third-image" src="newRelease3.jpg">
+              </div>
+            </div>
+            <div class="latest-releases-section">
+              <div class="heading">
+                <h1 class="section-heading">
+                  <span> Latest Releases </span>
+                </h1>
+              </div>
+              <div class="latest-releases">
+                <div class="latest-release">
+                    <div class="latest">
+                      <img src="latestRelease.jpg">
+                      <h2> Onism </h2>
+                      <h3> AUG 11, 2017 </h3>
+                      <h3> <i class="fas fa-ellipsis-h"></i> </h3>
+                      <h4> 4:44 </h4>
+                    </div>
+
+                </div>
+                <div class="latest-release">
+                  <div class="latest">
+                    <!-- <div class="latest-release-logo"> -->
+                      <img src="latestRelease.jpg">
+                    <!-- </div> -->
+                    <h2> Onism </h2>
+                    <h3> AUG 11, 2017 </h3>
+                    <h3> <i class="fas fa-ellipsis-h"></i> </h3>
+                    <h4> 4:44 </h4>
+                  </div>
+                </div>
+                <div class="latest-release">
+                  <div class="latest">
+                    <!-- <div class="latest-release-logo"> -->
+                      <img src="latestRelease.jpg">
+                    <!-- </div> -->
+                    <h2> Onism </h2>
+                    <h3> AUG 11, 2017 </h3>
+                    <h3> <i class="fas fa-ellipsis-h"></i> </h3>
+                    <h4> 4:44 </h4>
+                  </div>
+                </div>
+                <div class="latest-release">
+                  <div class="latest">
+                    <!-- <div class="latest-release-logo"> -->
+                      <img src="latestRelease.jpg">
+                    <!-- </div> -->
+                    <h2> Onism </h2>
+                    <h3> AUG 11, 2017 </h3>
+                    <h3> <i class="fas fa-ellipsis-h"></i> </h3>
+                    <h4> 4:44 </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="popular-artists">
+              <h1 class="section-heading">
+                <span> Popular Artists </span>
+              </h1>
+              <div class="artists">
+                <div class="artist">
+                  <img src="edsheeran1.jpg">
+                  <h3> Ed Sheeran </h3>
+                </div>
+                <div class="artist">
+                  <a href="./music-album.html" target="_blank">
+                  <img src="coldplay.jpg"></a>
+                  <h3> ColdPlay </h3>
+                </div>
+                <div class="artist">
+                  <img src="zyan.jpg">
+                  <h3> Zayn </h3>
+                </div>
+                <div class="artist">
+                  <img src="charlie.jpg">
+                  <h3> Charlie Puth </h3>
+                </div>
+                <div class="artist">
+                  <img src="imagine.jpg">
+                  <h3> Imagine Dragon </h3>
+                </div>
+                <div class="artist">
+                  <img src="bruno.jpg">
+                  <h3> Bruno Mars </h3>
+                </div>
+              </div>
+            </div>
+            <div class="music-types">
+              <div class="music-type music-heading">
+                <img src="station.png">
+                <h3 id="stations"> Stations </h3>
+              </div>
+              <div class="music-type">
+                <img src="love.jpg">
+                <h3 id="love"> Love </h3>
+              </div>
+              <div class="music-type">
+                <img src="retro.jpg">
+                <h3 id="retro"> Retro </h3>
+              </div>
+              <div class="music-type">
+                <img src="chill.jpg">
+                <h3 id="chill"> Chill </h3>
+              </div>
+              <div class="music-type">
+                <img src="workout.jpg">
+                <h3 id="workout"> Workout </h3>
+              </div>
+              <div class="music-type">
+                <img src="rock.jpg">
+                <h3 id="rock"> Rock </h3>
+              </div>
+              <div class="music-type">
+                <img src="pop.jpg">
+                <h3 id="pop"> Pop </h3>
+              </div>
+            </div>
+            <div class="music-genres">
+              <div class="music-genre">
+                <img src="party.jpg">
+                <div class="overlay">
+                  <div class="text"> Party </div>
+                </div>
+              </div>
+              <div class="music-genre">
+                <img src="electronic2.jpg">
+                <div class="overlay">
+                  <div class="text"> Electronic </div>
+                </div>
+              </div>
+              <div class="music-genre">
+                <img src="road-trip.jpg">
+                <div class="overlay">
+                  <div class="text"> Road trip </div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-english-container">
+              <h1 class="section-heading">
+                <span> Latest English </span>
+              </h1>
+              <div class="latest-english-songs">
+                <div class="latest-english">
+                  <img src="latesteng1.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng2.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng3.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng4.png">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng1.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng2.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+              </div>
+            </div>
+            <div class="latest-english-container">
+              <h1 class="section-heading">
+                <span> Latest Hindi </span>
+              </h1>
+              <div class="latest-english-songs">
+                <div class="latest-english">
+                  <img src="latesteng1.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng2.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng3.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng4.png">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng1.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+                <div class="latest-english">
+                  <img src="latesteng2.jpg">
+                  <h2> Onism </h2>
+                  <h3> AUG 11, 2017 </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="music-queue-playlist">
+            <h1> My Playlist </h1>
+            <div class="play-dropdown-main">
+              <button class="queue-button">Queue</button>
+              <div class="play-dropdown">
+                <a href="#"> Playlists </a>
+                <a href="#"> Favorite Songs </a>
+              </div>
+            </div>
+            <div class="queue">
+              <ol class="ordered-list-queue">
+                <li class="list-item-queue">
+                  <h4> 01 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="list-item-queue">
+                  <h4> 02 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="list-item-queue">
+                  <h4> 03 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="list-item-queue">
+                  <h4> 04 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="list-item-queue">
+                  <h4> 05 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart icon"></i>
+                </li>
+                <li class="list-item-queue">
+                  <h4> 06 </h4>
+                  <img src="queue1.jpg">
+                  <h2 class="song-name m0"> Mirage </h2>
+                  <h3 class="album-name m0"> Else </h3>
+                  <i class="fas fa-heart"></i>
+                </li>
+              </ol>
+            </div>
+            <div class="playlist">
+            </div>
+          </div>
+      </section>
+      <section>
+        <div class="footer-music">
+          <div class="music-details">
+            <div class="music-detail">
+              <img src="footer.jpg">
+              <p class="playing-song"> Imagine by John </p>
+              <p class="playing-album"> John Lennon </p>
+              <i class="fas fa-heart footer-icon"></i>
+              <i class="fas fa-ban"></i>
+            </div>
+          </div>
+          <div class="music-slider">
+            <div class="controls">
+              <div class="control">
+                <i class="fa fa-random"></i>
+              </div>
+              <div class="control">
+                <i class="fas fa-arrow-left"></i>
+              </div>
+              <div class="control play">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="control">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <div class="control">
+                <i class="fa fa-repeat"></i>
+              </div>
+            </div>
+            <div class="slider">
+              <div class="slide">
+                <h2 id="left"> 1:19 </h2>
+                  <div class="slider-line">
+                    <input type="range" min="0" max="100" value="0" class="slider-progress">
+                  </div>
+                <h2 id="right"> 4:42 </h2>
+              </div>
+            </div>
+            </div>
+            <div class="other-controls">
+              <div class="other-control">
+                <i class="fas fa-sliders-h"></i>
+              </div>
+              <div class="other-control">
+                <i class="fas fa-headphones"></i>
+              </div>
+              <div class="other-control">
+                <i class="fas fa-volume-up"></i>
+              </div>
+              <div class="other-control">
+                <input type="range" min="0" max="100" value="0" class="other-progress">
+              </div>
+              <div class="other-control">
+                <i class="fa fa-expand"></i>
+              </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

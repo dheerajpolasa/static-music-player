@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Spotify Clone </title>
+    <link rel="stylesheet" href="music-album.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-main">
+          <ul>
+            <li> <i class="fas fa-music"></i> Ninja Music</li>
+            <li class="favorite"> Favorites </li>
+          </ul>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li> <div class="profile-icon"> <img src="download.jpg"></div> </li>
+            <li> <div class="notification"> <i class="fas fa-bell"></i> </div> </li>
+            <li> <div class="search-bar"> <input type="text" placeholder="search"> <i class="fas fa-search"> </i> </div> </li>
+          </ul>
+        </div>
+        <div class="dropdown-menu">
+          <button class="dropdown-button"><i class="fas fa-bars"></i></button>
+          <div class="dropdown">
+            <a id="favor" href="#"> Favorites </a>
+            <a href="#"> Search </a>
+            <a href="#"> Notifications </a>
+            <a href="#"> Profile </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-1">
+          <div class="album-container">
+            <div class="album">
+              <div class="album-img">
+                <img src="coldplay.jpg">
+              </div>
+              <div class="album-info">
+                <h1> ColdPlay </h1>
+                <h2> British Band </h2>
+                <p> Coldplay are a British rock band that was formed in London in 1996. Vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman,
+                  and drummer Will Champion met at University College London and began playing music together from 1996 to 1998,
+                   first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay.
+                 </p>
+                 <button type="button" name="play-all" class="btn play-btn"> Play All </button>
+                 <button type="button" name="follow" class="btn follow-btn"> Follow </button>
+                 <p> 247 Tracks | 128 Albums </p>
+                 <p class="followers"> 845 Followers </p>
+              </div>
+            </div>
+            <div class="album-songs">
+              <div class="song">
+                <p> 01 </p>
+                <img src="latesteng1.jpg">
+                <h2> Mirage </h2>
+                <h3> Else </h3>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="song">
+                <p> 02 </p>
+                <img src="latesteng1.jpg">
+                <h2> Mirage </h2>
+                <h3> Else </h3>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="song">
+                <p> 03 </p>
+                <img src="latesteng1.jpg">
+                <h2> Mirage </h2>
+                <h3> Else </h3>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="song">
+                <p> 04 </p>
+                <img src="latesteng1.jpg">
+                <h2> Mirage </h2>
+                <h3> Else </h3>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="side-queue">
+            <div class="similar-artists">
+              <h1> Similar Artists </h1>
+              <h3> View All </h3>
+              <ul class="similar-artists-list">
+                <li class="similar-artist">
+                  <img src="similar.png">
+                  <h2 class="artist-name m0"> Imagine Dragon </h2> <br>
+                  <h3 class="band-name m0"> Pop Band </h3>
+                  <i class="fas fa-ellipsis-h"></i>
+                  <p> 4:44 </p>
+                </li>
+                <li class="similar-artist">
+                  <img src="similar.png">
+                  <h2 class="artist-name m0"> Imagine Dragon </h2> <br>
+                  <h3 class="band-name m0"> Pop Band </h3>
+                  <i class="fas fa-ellipsis-h"></i>
+                  <p> 4:44 </p>
+                </li>
+                <li class="similar-artist">
+                  <img src="similar.png">
+                  <h2 class="artist-name m0"> Imagine Dragon </h2> <br>
+                  <h3 class="band-name m0"> Pop Band </h3>
+                  <i class="fas fa-ellipsis-h"></i>
+                  <p> 4:44 </p>
+                </li>
+              </li>
+            </ul>
+          </div>
+          <div class="recently-played">
+              <h1> Recently Played </h1>
+              <div class="recently-played-list">
+                <ol class="recently-list-queue">
+                  <li class="list-recent-queue">
+                    <p> 01 </p>
+                    <img src="queue1.jpg">
+                    <h2 > Mirage </h2>
+                    <h3 > Else </h3>
+                    <i class="fas fa-heart"></i>
+                  </li>
+                  <li class="list-recent-queue">
+                    <p> 02 </p>
+                    <img src="queue1.jpg">
+                    <h2 > Mirage </h2>
+                    <h3 > Else </h3>
+                    <i class="fas fa-heart"></i>
+                  </li>
+                  <li class="list-recent-queue">
+                    <p> 03 </p>
+                    <img src="queue1.jpg">
+                    <h2 > Mirage </h2>
+                    <h3> Else </h3>
+                    <i class="fas fa-heart"></i>
+                  </li>
+                  <li class="list-recent-queue">
+                    <p> 04 </p>
+                    <img src="queue1.jpg">
+                    <h2 > Mirage </h2>
+                    <h3 > Else </h3>
+                    <i class="fas fa-heart"></i>
+                  </li>
+                </ol>
+              </div>
+            </div>
+      </section>
+      <section>
+        <div class="footer-music">
+          <div class="music-details">
+            <div class="music-detail">
+              <img src="footer.jpg">
+              <p class="playing-song"> Imagine by John </p>
+              <p class="playing-album"> John Lennon </p>
+              <i class="fas fa-heart footer-icon"></i>
+              <i class="fas fa-ban"></i>
+            </div>
+          </div>
+          <div class="music-slider">
+            <div class="controls">
+              <div class="control">
+                <i class="fa fa-random"></i>
+              </div>
+              <div class="control">
+                <i class="fas fa-arrow-left"></i>
+              </div>
+              <div class="control play">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="control">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <div class="control">
+                <i class="fa fa-repeat"></i>
+              </div>
+            </div>
+            <div class="slider">
+              <div class="slide">
+                <h2 id="left"> 1:19 </h2>
+                <div class="slider-line">
+                  <input type="range" min="0" max="100" value="0" class="slider-progress">
+                </div>
+                <h2 id="right"> 4:42 </h2>
+              </div>
+            </div>
+          </div>
+          <div class="other-controls">
+            <div class="other-control">
+              <i class="fas fa-sliders-h"></i>
+            </div>
+            <div class="other-control">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <div class="other-control">
+              <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="other-control">
+              <input type="range" min="0" max="100" value="0" class="other-progress">
+            </div>
+            <div class="other-control">
+              <i class="fa fa-expand"></i>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
